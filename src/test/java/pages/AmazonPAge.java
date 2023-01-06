@@ -12,6 +12,7 @@ public class AmazonPAge {
     // ve varsa login islemi gibi basit methotlar icin kullanilir
 
     public AmazonPAge(){
+
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
