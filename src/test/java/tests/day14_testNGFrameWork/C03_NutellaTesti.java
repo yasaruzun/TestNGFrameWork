@@ -7,11 +7,13 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pages.AmazonPAge;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 public class C03_NutellaTesti {
 
     @Test
     public void test01(){
+        ReusableMethods.bekle(3);
         //amazon ana sayfaya gidin
         Driver.getDriver().get("https://www.amazon.com");
 
